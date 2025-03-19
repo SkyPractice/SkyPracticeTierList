@@ -14,10 +14,7 @@ function App() {
   const [currentStats , setCurrentStats] = useState({});
   const [Tiers, setTiers] = useState([]);
   useEffect(()=>{
-     fetch("api/proxy/data", {mode : "no-cors" ,   headers: {
-      'Origin': window.location.origin, // or 'http://yourdomain.com' if you know the origin
-      'X-Requested-With': 'XMLHttpRequest', // This is commonly used for AJAX requests
-    }}).then(res => res.json()).
+     fetch("https://skypractice.xyz:25622/api").then(res => res.json()).
       then(ress => {
         console.log(ress)
         if(ress.length > 0){
