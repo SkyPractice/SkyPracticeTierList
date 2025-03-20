@@ -52,7 +52,7 @@ function App() {
       <div style={{ display: "flex" }}>
         <SideBar />
         <Routes>
-          <Route path="/SkyPractice" element={<Best tiers={Tiers} displayStatsFunc={displayStats} />} />
+          <Route path="/SkyPracticeTierList" element={<Best tiers={Tiers} displayStatsFunc={displayStats} />} />
           <Route path="/Sword" element={<TierTable tiers={Tiers} mode={"Sword"} displayStatsFunc={displayStats} />} />
           <Route path="/Nethpot" element={<TierTable tiers={Tiers} mode={"Nethpot"} displayStatsFunc={displayStats} />} />
           <Route path="/Diapot" element={<TierTable tiers={Tiers} mode={"Diapot"} displayStatsFunc={displayStats} />} />
