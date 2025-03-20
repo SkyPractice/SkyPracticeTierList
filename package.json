@@ -1,9 +1,8 @@
 {
   "name": "vite-project",
   "private": true,
-  "proxy": "https://skypractice.xyz:25622/api",
   "version": "0.0.0",
-  "proxy": "https://skypractice.xyz:25622/api",
+  "proxy": "https://skypractice.xyz:25622",
   "type": "module",
   "scripts": {
     "dev": "vite",
